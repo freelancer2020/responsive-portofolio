@@ -121,25 +121,22 @@ img {
 	width: inherit;
 	height:auto;
 	text-align: center;
+	color: #ffffff;
 }
 #profile-name {
-	color: #ffffff;
 	font-family: tahoma;
 	font-style:italic;
 }
 .job-title {
 	font-family: Arial, Helvetica, sans-serif;
-	color: #ffffff;
 }
 #contact-email{
 	font-family: Arial, Helvetica, sans-serif;
-	color: #ffffff;
 	margin-top: 50px;
 
 }
 #contact-mob {
 	font-family: Arial, Helvetica, sans-serif;
-	color: #ffffff;
 }
 .fa {
     padding: 20px;
@@ -167,6 +164,120 @@ img {
 	color: #0077b5;
 }
 
+
+.download-btn {
+    width: 30px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 5px 5px 0 0;
+    position: absolute;
+    margin-top: 25px;
+    
+  }
+  .cic {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: royalblue;
+  }
+  .cic-1 {
+   
+    display: inline-block;
+    margin-left: -5px;
+    margin-top: 5px;
+  }
+  .cic-2 {
+    margin-left: 20px;
+    margin-top: 5px;
+    
+  }
+  .cic-3 {
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  
+  
+  
+  .rog{
+    position: absolute;
+    width: 10px;
+    height: 6px;
+    background-color: #ffffff;
+    transform: rotate(-90deg);
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .rop {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 10px solid #ffffff;
+    transform: rotate(180deg);
+    margin-left: 7.5px;
+    margin-top: 16px;
+  }
+  
+  .ani {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 20px;
+    
+  }
+  .btnDown {
+    width: 200px;
+    height: 50px;
+    margin-top: 100px;
+    background-color:  DodgerBlue;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 3;
+    cursor: pointer;
+    margin-left: 80px;
+  }
+  .btnDown:hover {
+    background-color: royalblue;
+  }
+  .wordcv {
+      position: absolute;
+      margin-left: 60px;
+  }
+  .cv-button {
+      margin-left: 20px;
+  }
+  .intro-parallax {
+  	display: block;
+  	width: auto;
+  	height: auto;
+  	margin-left: 430px;
+  	position: relative;
+  	color: #ffffff;
+  	top: 500px;
+  }
+  #hello {
+  	font-family: 'Courier New', Courier, monospace;
+  	font-size: 35px;
+  }
+  #my-name {
+  	
+  	font-size: 50px;
+  	padding: 10px;
+
+  }
+  .job-name {
+  	font-family: 'Times New Roman', Times, serif;
+  	font-style: italic;
+  	font-size: 35px;
+  }
+
+
 @media only screen and (max-width: 600px) and (min-width: 300px) {
 	.menu {
 		flex-direction: start;
@@ -184,8 +295,5 @@ img {
 		width: 100vw;
 		
 	}
-	
-	
-	
 	
 }
